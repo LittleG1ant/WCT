@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid Test</title>
+</head>
+<body>
+    <!--Audio-->
+    <audio id="athletes-ready">
+        <source src="/gridTest/mp3s/athletes_ready_buzzer(2).mp3" type="audio/mpeg">
+    </audio>
+    <audio id="buzzer">
+        <source src="/gridTest/mp3s/buzzer(2).mp3" type="audio/mpeg">
+    </audio>
+    
+    <!--Audio End-->
+
+    <main>
+        <!--Header-->
+        <div class="box1">
+            <h1 class="title">World Chase Tag</h1>
+        </div>
+        <!--Header End-->
+
+        <!--Evader Section-->
+        <div class="box2">
+            <div class="evader-card">
+                <div class="evader-title">
+                    <h2>Player: Evader</h2>
+                </div>
+                <div class="evader-score">
+                    <p>Evasions:</p>
+                </div>
+                <div class="point">0</div>
+                <div class="evader-btn">
+                    <h1 class="btn-evasion">Evasion</h1>
+                </div>
+            </div> 
+        </div>
+        <!--Evader End Section-->
+
+        <!--Time-->
+        <div class="box3">
+            
+            <div class="time-card">
+                <div class="display-time">
+                    <div class="time">
+                        5
+                    </div>
+                    <div class="time-btn">
+                        <button class="start-time">Athletes Ready!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Time End-->
+
+        <!--Chaser Section-->
+        <div class="box4">
+            <!--
+                Make card to be clickable
+            -->
+            <div class="chaser-card">
+                <div class="chaser-title">
+                    <h2>Player: Chaser</h2>
+                </div>
+                <!--
+                <div class="evader-score">
+                    <p>Score: 0</p>
+                </div>
+            -->
+                <div class="chaser-btn">
+                    <h1 class="btn-tag">Tag</h1>
+                </div>
+            </div>
+        </div>
+        <!--Chaser Section End-->
+    </main>
+    <script src="/gridTest/app.js"></script>
+</body>
+</html>

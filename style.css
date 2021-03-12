@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.box1{
+    background-color: rgb(2, 2, 2);
+
+}
+
+.box2{
+    background-color: #4c4343;
+    
+}
+
+.box3{
+    background-color:#4c4343;
+    
+}
+
+.box4{
+    background-color: #4c4343; 
+}
+
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 
+    "box1 box1 box1"
+    "box2 box3 box4"
+    ;
+    
+    
+    
+}
+
+
+.box1{
+    height: 100%;
+    grid-area: box1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 5px solid red;
+}
+
+.box2 {
+    height: 100%;
+    grid-area: box2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+
+.box3{
+    height: 100%;
+    grid-area: box3;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box4{
+    height: 100%;
+    grid-area: box4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/*
+Title
+*/
+
+.title{
+    color: white;
+    font-size: 50px;
+}
+
+
+
+/* Time */
+.time-card{
+    margin-top: 30%;
+    height: 45%;
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    /*
+    background-color: white;
+    height: 10%;
+    width: 50%;
+    */
+    border-radius: 50%;
+    background: #4c4343;
+    box-shadow: inset 11px 11px 16px #453d3d,
+            inset -11px -11px 16px #534949;
+}
+
+.display-time {
+    height: auto;
+    width: auto;
+}
+
+.time {
+    line-height: 100%;
+    color: #fff;
+    font-size: 15vh;
+}
+.start-time{
+    font-size: 2.5vh;
+    height:5vh;
+    width: 20vh;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 222px;
+    background: linear-gradient(145deg, #443c3c, #514848);
+    box-shadow:  25px 25px 50px #413939,
+             -25px -25px 50px #574d4d;
+}
+
+
+/* Evader Card */
+.evader-card {
+    cursor: pointer;
+    background-color: #98FB98;
+    height: 50%;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: -2px 1px 15px 4px #0a0a0a, 4px 3px 15px 1px #f0eaea;
+}
+
+/* Evader's Name/Title */
+.evader-title{
+    background-color:#87CEFA;
+    border-bottom: 1px solid;
+    font-size:17px;
+    height:20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.evader-score, .evader-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+
+    
+}
+.point{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+/* Evader's Score */
+.evader-score{
+    font-size:30px;
+    text-decoration: underline;
+}
+
+/* Evader's Btn*/
+.btn-evasion{
+    font-size:35px;
+    
+
+}
+
+/* Chaser's Card */
+
+
+/* Evader's Name/Title */
+
+.chaser-card {
+    cursor: pointer;
+    background-color: #FF6347;
+    height: 50%;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: -2px 1px 15px 4px #0a0a0a, 4px 3px 15px 1px #e9e1e1;
+}
+
+.chaser-title{
+    background-color:#87CEFA;
+    border-bottom: 1px solid;
+    font-size:17px;
+    height:20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chaser-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30%;
+}
+
+.btn-tag {
+    font-size: 50px;
+}
+
+/* Btns */
+.btn-tag, .btn-evasion {
+    width: 60%;
+
+
+
+
+    
+}
